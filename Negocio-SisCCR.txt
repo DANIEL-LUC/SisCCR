@@ -1,0 +1,80 @@
+NEGÓCIO:
+=======
+--> Domínio de negócio
+	O negócio está relacionado com aspectos da geometria, na qual será desenvolvida um
+	Sistema para calcular área e perímetro de cincnferência e retângulos.
+
+--> Quais são oa problemas / oportunidades?
+	A oportunidade encontrada é calcular de forma rápida e prática a área de perímetro 
+	de uma circunferência e retangulos que poderá ser usada para facilitar na medição
+	para pessoas que tenham essa dificuldade de calculo ou para aquelas que estão
+	apreendendo de forma didatica a geometria e quer conferir resultados.
+
+--> Stakeholders
+	Estudandes de geometria;
+
+--> Quais os vocábulos de negócio ?
+	Perimétro: somatória do tamanho externo de uma figura.
+	Área: medição geométrica do espaço interno de uma figura bidimensional.
+	SisCCR: Sistema de Cálculo para Circunferência e Retângulos
+
+-->Atividades de negócio
+	Calcular área do circulo;
+	Calcular área do retângulo;
+	Calucular perímetro da circunferência;
+	Calcular perímetro do retângulo;
+
+--> Quais são os precessos do negócio?
+	--------------------------------------------
+	Cálculo da Área do retângulo:
+	O usuario adiciona o tamanho medida da base e largura do retângulo.
+
+	--------------------------------------------
+	Cálculo da Área do Círculo:
+	Ousuário adiciona o valor do raio do circulo.
+
+	--------------------------------------------
+	Cálculo da Perímetro do retângulo:
+	O usuário adiciona os valores da base e largura do retângulo.
+	
+	--------------------------------------------
+	Cálculo da Perímetro do círculo:
+	O usuário adiciona o valor do raio.
+
+	--------------------------------------------
+
+
+--> Quais são as regras do negócio?
+
+	** RN001 - O cálculo da área do retângulo deve seguir a fórmula a seguir:
+		
+		Área = base * largura
+
+	Na qual a unidade de medida é centímetros.
+
+
+	** RN002 - O cálculo do perímetro do retângulo deve seguir a fórmula a seguir:
+		
+		perímetro = base * 2 + largura * 2
+
+	Na qual a unidade de medida é centímetros.
+
+
+	** RN003 - O cálculo do perímetro da circunferência deve seguir a fórmula a seguir:
+		
+		perímetro = 2 * PI * raio
+
+	Na qual a unidade de medida é centímetros.
+
+
+	** RN004 - O cálculo do área da circunferência deve seguir a fórmula a seguir:
+		
+		perímetro =  PI * raio ^2
+
+	Na qual a unidade de medida é centímetros.
+	
+	
+REQUISITO :
+=========
+
+
