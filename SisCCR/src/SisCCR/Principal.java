@@ -21,7 +21,18 @@ public class Principal {
 			Circulo c = new Circulo (raio);
 			JOptionPane.showMessageDialog(null, "A área do circulo eh: " + 
 						c.area() +"cm2 \n e o perimetro eh "+ c.perimetro() +"cm" );
-
+			
+		case "2":
+			double base;
+			double largura;
+			a = JOptionPane.showInputDialog(null, "Qual é a largura ??");
+			largura = Double.parseDouble(a);
+			a = JOptionPane.showInputDialog(null, "Qual é a base ??");
+			base = Double.parseDouble(a);
+			
+			Retangulo r = new Retangulo (base, largura);
+			JOptionPane.showMessageDialog(null, "A área do circulo eh: " + 
+						r.area() +"cm2 \n e o perimetro eh "+ r.perimetro() +"cm" );
 		}
 
 	}

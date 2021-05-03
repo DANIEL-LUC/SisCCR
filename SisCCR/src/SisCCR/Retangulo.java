@@ -4,7 +4,7 @@ public class Retangulo {
 	private double base;
 	private double largura;
 	
-	public void Retangulo(double b, double l) {
+	public Retangulo(double b, double l) {
 		this.base = b;
 		this.largura = l;
 		return;
